@@ -15,3 +15,7 @@ The AI4Food database (AI4FoodDB) gathers data from a nutritional intervention wi
 - **DS2: Lifestyle and Health.** Manually-collected data available at `datasets/lifestyle.tsv` and `datasets/health.tsv`.
 - **DS4: Biomarkers.** Clinical data available at `datasets/biomarkers.tsv`.
 - **DS6: Vital Signs.** Clinical data available at `datasets/vitalsigns.tsv`.
+
+
+## License
+This project is licensed under a Creative Commons Attribution 4.0 International License.
