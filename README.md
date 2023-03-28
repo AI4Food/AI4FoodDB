@@ -3,6 +3,7 @@
 ## Table of Contents
 * [Database Description](#database-description)
 * [Available Datasets](#available-datasets)
+* [License](#license)
 
 ## Database Description
 The AI4Food database (AI4FoodDB) gathers data from a nutritional intervention with 100 overweight and obese participants. Data acquisition involved manual traditional approaches, novel digital methods, and the collection of biological samples. An overview of AI4FoodDB is shown below.
@@ -18,4 +19,6 @@ The AI4Food database (AI4FoodDB) gathers data from a nutritional intervention wi
 
 
 ## License
-This project is licensed under a Creative Commons Attribution 4.0 International License.
+This project is licensed under a Creative Commons Attribution 4.0 International License. 
+
+See license file at `LICENSE.md`.
