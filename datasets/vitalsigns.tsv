@@ -49,7 +49,7 @@ id	dataset_id	systolic_blood_pressure_mmhg	dyastolic_blood_pressure_mmhg	heart_r
 2138	ds6_v0_2138	130	86	62
 2139	ds6_v0_2139	118	84	86
 2140	ds6_v0_2140	132	78	66
-2141	ds6_v0_2141	\N	\N	\N
+2141	ds6_v0_2141	NA	NA	NA
 2142	ds6_v0_2142	139	83	42
 2143	ds6_v0_2143	113	68	73
 2144	ds6_v0_2144	124	72	71
@@ -255,7 +255,7 @@ id	dataset_id	systolic_blood_pressure_mmhg	dyastolic_blood_pressure_mmhg	heart_r
 2152	ds6_v3_2152	109	67	51
 2153	ds6_v3_2153	125	82	73
 2154	ds6_v3_2154	144	100	70
-2155	ds6_v3_2155	\N	\N	\N
+2155	ds6_v3_2155	NA	NA	NA
 2156	ds6_v3_2156	112	71	56
 2157	ds6_v3_2157	123	75	73
 2158	ds6_v3_2158	112	79	76
