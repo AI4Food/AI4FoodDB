@@ -26,7 +26,7 @@ If you use data from this project, please cite:
 
 *Romero-Tapiador S, Lacruz-Pleguezuelos B, Tolosana R et al. AI4FoodDB: A Database for Personalized e-Health Nutrition and Life Style through Wearable Devices and Artificial Intelligence. 2023. (Under Review)*
 
-## Contact:
+## Contact
 If you have any questions, please contact us at ruben.tolosana@uam.es, or enrique.carrillo@imdea.org
 
 ## License
