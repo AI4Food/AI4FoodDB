@@ -3,7 +3,9 @@
 ## Table of Contents
 * [Database Description](#database-description)
 * [Available Datasets](#available-datasets)
-* [Citation and License](#license)
+* [Citation](#citation)
+* [Contact](#contact)
+* [License](#license)
 
 ## Database Description
 The AI4Food database (AI4FoodDB) gathers data from a nutritional intervention with 100 overweight and obese participants. Data acquisition involved manual traditional approaches, novel digital methods, and the collection of biological samples. An overview of AI4FoodDB is shown below.
@@ -19,9 +21,13 @@ The currently available datasets are:
 - **DS6: Vital Signs.** Clinical data available at `datasets/vitalsigns.tsv`.
 For a more detailed description of each dataset, please access the `datasets` directory.
 
-## Citation and License
-This project is licensed under a Creative Commons Attribution 4.0 International License. See license file at `LICENSE.md`.
-
+## Citation
 If you use data from this project, please cite:
 
 *Romero-Tapiador S, Lacruz-Pleguezuelos B, Tolosana R et al. AI4FoodDB: A Database for Personalized e-Health Nutrition and Life Style through Wearable Devices and Artificial Intelligence. 2023. (Under Review)*
+
+## Contact:
+If you have any questions, please contact us at ruben.tolosana@uam.es, or enrique.carrillo@imdea.org
+
+## License
+This project is licensed under a Creative Commons Attribution 4.0 International License. See license file at `LICENSE.md`.
