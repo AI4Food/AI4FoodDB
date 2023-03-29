@@ -65,7 +65,7 @@ File `health.tsv` stores manually-acquired information about frequent medication
 - `oral_contraceptive`, `ring_contraceptive`, `antidepressants`, `antiacids`, `antihistamines`, `antiinflamatory`, `iron`, `calcium`, `antihypertensives`, `thyroid_hormone`, `antibiotics`, `other_medication`: These columns have a value of `1` if the participant is currently consuming any of the listed medications, or a medication that is not included in this list, and `0` otherwise.
 - `no_medication`: This column has a value of `1` if the participant is not taking any medication at the moment and `0` otherwise.
 - `hyperthyroidism`, `hypothyroidism`, `hypercholesterolemia`, `triglyceridemia`, `hypertension`, `depression`, `diabetes`, `lactose_intolerance`, `other_illness`: These columns have a value of `1` if the participant suffers from any of the listed or any other illnesses, and `0` otherwise.
-- no_illness`: This column has a value of `1` if the participant does not suffer from any illness at the moment and `0` otherwise.
+- `no_illness`: This column has a value of `1` if the participant does not suffer from any illness at the moment and `0` otherwise.
 - `menopause`: This column has a value of `1` if the participant has reached menopause and `0` otherwise.
 
 ## DS4: Biomarkers
