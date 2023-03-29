@@ -4,7 +4,7 @@ This directory contains the available datasets from AI4FoodDB stored as tab-deli
 - Every table contains an `id` column indicating the anonymized participant ID.
 - A `dataset_id` is also included in all datasets with the form `dsX_[vX]_ID`: dataset number, visit number if the measurement was taken more than once, and participant ID. For instance:
     - `ds1_v0_1045` is the dataset ID for the information from dataset 1 recorded at V0 for participant 1045. 
-    - `ds2_1045` is the dataset ID for the information from dataset 1 for participant 1045.
+    - `ds2_1045` is the dataset ID for the information from dataset 2 for participant 1045.
 - Missing values are stored as `NA` in all cases.
 
 ## Table of Contents
