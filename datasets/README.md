@@ -72,14 +72,15 @@ File `health.tsv` stores manually-acquired information about frequent medication
 File `biomarkers.tsv` stores information from several biochemical parameters, measured from biological samples:
 
 - `id`, `visit`, `dataset_id`: Participant, visit where the measurement was taken, and dataset ID.
-- `leukocytes_10e3_ul`, `erythrocytes_10e6_ul`, `plats_10e3_ul`, `lympho_10e3_ul`, `mono_10e3_ul`, `seg_10e3_ul`, `eos_10e3_ul`, `baso_10e3_ul`: total number of leukocytes, erythrocytes, platelets, lymphocytes, monocytes, segmenters, eosynophils, and basophils, measured as $10^3/\mu{L}$.
-- `hgb_g_dl`: hemoglobin concentration, measured in g/dL.
-- `hematocrit_perc`: hematocrit.
-- `mcv_fl`, `mpv_fl`: mean corpuscular volume (MCV) and mean platelet volume (MPV), measured in fL.
-- `mch_pg`, `mchc_g_dl`: mean corpuscular hemoglobin (MCH), measured in pg, and MCH concentration (MCHC), measured in g/dL.
-- `rdw_perc`: red cell distribution width.
-- `lympho_perc`, `mono_perc`, `seg_perc`, `eos_perc`, `baso_perc`: percentage of lymphocytes, monocytes, segmenters, eosynophils, and basophyls.
-- `hba1c_perc`, `hba1ifcc_mmol_mol`: glycated hemoglobin, measured as a percentage and in mmol/mol respectively.
+- `leukocytes_10e3_ul`, `plats_10e3_ul`, `lympho_10e3_ul`, `mono_10e3_ul`, `seg_10e3_ul`, `eos_10e3_ul`, `baso_10e3_ul`: Total number of leukocytes, platelets, lymphocytes, monocytes, segmenters, eosynophils, and basophils, measured as $10^3/\mu{L}$.
+- `erythrocytes_10e6_ul`: Total erythrocyte number, measured as $10^6/\mu{L}$.
+- `hgb_g_dl`: Hemoglobin concentration, measured in g/dL.
+- `hematocrit_perc`: Hematocrit.
+- `mcv_fl`, `mpv_fl`: Mean corpuscular volume (MCV) and mean platelet volume (MPV), measured in fL.
+- `mch_pg`, `mchc_g_dl`: Mean corpuscular hemoglobin (MCH), measured in pg, and MCH concentration (MCHC), measured in g/dL.
+- `rdw_perc`: Red cell distribution width.
+- `lympho_perc`, `mono_perc`, `seg_perc`, `eos_perc`, `baso_perc`: Percentage of lymphocytes, monocytes, segmenters, eosynophils, and basophyls.
+- `hba1c_perc`, `hba1ifcc_mmol_mol`: Glycated hemoglobin, measured as a percentage and in mmol/mol respectively.
 - `insulin_uui_ml`: Insulin concentration, measured in $\mu{UI}/mL$.
 - `homa`: HOMA-IR index.
 - `glu_mg_dl`: Glucose concentration in mg/dL.
