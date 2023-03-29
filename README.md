@@ -14,7 +14,7 @@ The AI4Food database (AI4FoodDB) gathers data from a nutritional intervention wi
 ***Overview of the AI4FoodDB.*** _The database comprises 10 datasets representing different types of data acquired during the nutritional intervention: Anthropometric Measurements (DS1), Lifestyle and Health (DS2), Nutrition (DS3), Biomarkers (DS4), Gut Microbiome (DS5), Vital Signs (DS6), Physical Activity (DS7), Sleep Activity (DS8), Emotional State (DS9), and Additional Information (DS10). Datasets are colored according to the data acquisition method: manual (in orange), clinical (in purple), or digital (in yellow)._
 
 ## Datasets
-### Available datasets
+### Available Datasets
 The currently available datasets are:
 - **DS1: Anthropometric Measurements.** Manually-collected data available at `datasets/anthropo.tsv`.
 - **DS2: Lifestyle and Health.** Manually-collected data available at `datasets/lifestyle.tsv` and `datasets/health.tsv`.
@@ -23,7 +23,7 @@ The currently available datasets are:
 
 For a more detailed description of each dataset, please access the README file at the `datasets` directory.
 
-### Ongoing datasets
+### Ongoing Datasets
 - **DS3. Nutrition.**
 - **DS5. Gut Microbiome.**
 - **DS7. Physical Activity.**
@@ -35,6 +35,15 @@ For a more detailed description of each dataset, please access the README file a
 If you use data from this project, please cite:
 
 *Romero-Tapiador S, Lacruz-Pleguezuelos B, Tolosana R et al. AI4FoodDB: A Database for Personalized e-Health Nutrition and Life Style through Wearable Devices and Artificial Intelligence. 2023. (Under Review)*
+
+```
+@article{ai4fooddb2023,
+  title={AI4FoodDB: A Database for Personalized e-Health Nutrition and Life Style through Wearable Devices and Artificial Intelligence},
+  author={Romero-Tapiador, Sergio and Lacruz-Pleguezuelos, Blanca and Tolosana, Ruben and et al.},
+  journal={Under Review},
+  year={2023}
+}
+```
 
 ## Contact
 If you have any questions, please contact us at ruben.tolosana@uam.es or enrique.carrillo@imdea.org
