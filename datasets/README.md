@@ -48,7 +48,7 @@ Information from the lifestyle survey is stored at `lifestyle.tsv`:
 - `id`, `dataset_id`: Participant and dataset ID.
 - `appetite`: Appetite level on a scale from 1 to 5.
 - `daily meals`, `meals_weekdays_out`, `meals_weekdays_home`, `meals_weekend_out`, `meals_weekend_home`: Number of meals per day, number of meals eaten or cooked at home or outside (i.e., at a restaurant) during weekdays and during the weekend.
--`defecation`, `urination`: Frequency of defecation (daily, every two days, or more) and urination (times per day).
+- `defecation`, `urination`: Frequency of defecation (daily, every two days, or more) and urination (times per day).
 - `water_ml`, `others_ml`: Amount of water and other liquids consumed during the day, in mililiters.
 - `cigarettes_day`, `cigars_day`, `pipe_day`: Daily tobacco consumption in the form of cigarettes, cigars, or pipe.
 - `alcohol`, `fermented_perc`, `distilled_perc`: Weekly alcohol consumption and relative amount of fermented and distilled alcohol consumed (from 0 to 1).
