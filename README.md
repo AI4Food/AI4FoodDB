@@ -36,7 +36,7 @@ If you use data from this project, please cite:
 
 ```
 @article{ai4fooddb2023,
-  title={AI4FoodDB: A Database for Personalized e-Health Nutrition and Life Style through Wearable Devices and Artificial Intelligence},
+  title={AI4FoodDB: A Database for Personalized e-Health Nutrition and Lifestyle through Wearable Devices and Artificial Intelligence},
   author={Romero-Tapiador, Sergio and Lacruz-Pleguezuelos, Blanca and Tolosana, Ruben and Freixer-Ballesteros, Gala and Daza, Roberto and Fernandez-Diaz, Cristina M and Aguilar-Aguilar, Elena and Fernandez-Cabezas, Jorge and Cruz Gil, Silvia and Molina-Arranz, Susana and Crespo-Lorenzo, Maria del Carmen and Marcos-Zambrano, Laura Judith and Vera-Rodriguez, Ruben and Fierrez, Julian and Ramirez de Molina, Ana and Ortega-Garcia, Javier and Espinosa-Salinas, Maria Isabel and Morales, Aythami and Carrillo de Santa Pau, Enrique},
   journal={Under Review},
   year={2023}
