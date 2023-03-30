@@ -1,4 +1,4 @@
-# AI4FoodDB: A Database for Personalized e-Health Nutrition and Life Style through Wearable Devices and Artificial Intelligence
+# AI4FoodDB: A Database for Personalized e-Health Nutrition and Lifestyle through Wearable Devices and Artificial Intelligence
 
 ## Table of Contents
 * [Database Description](#database-description)
