@@ -99,8 +99,8 @@ File [`biomarkers.csv`](DS4_Biomarkers/biomarkers.csv) stores information from s
 - `adiponectin_ug_ml`: Adiponectin concentration, measured in $\mu{g}/mL$.
 
 
-## [DS6: Vital Signs](https://github.com/AI4Food/AI4FoodDB/tree/main/datasets/DS6_VitalSigns)
-The vital signs measured by a health professional during the nutritionist visits are stored in [`vitalsigns.csv`](https://github.com/AI4Food/AI4FoodDB/blob/main/datasets/DS6_VitalSigns/vitalsigns.csv): 
+## [DS6: Vital Signs](DS6_VitalSigns)
+The vital signs measured by a health professional during the nutritionist visits are stored in [`vitalsigns.csv`](DS6_VitalSigns/vitalsigns.csv): 
 
 - `id`, `visit`, `dataset_id`: Participant, visit where the measurement was taken, and dataset ID.
 - `systolic_blood_pressure_mmhg`, `dyastolic_blood_pressure_mmhg`: Systolic and dyastolic blood pressure, measured in mmHg.
