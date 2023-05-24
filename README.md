@@ -22,16 +22,16 @@ The AI4Food database (AI4FoodDB) gathers data from a nutritional intervention wi
 
 ***Overview of the AI4FoodDB.*** _The database comprises 10 datasets representing different types of data acquired during the nutritional intervention: Anthropometric Measurements (DS1), Lifestyle and Health (DS2), Nutrition (DS3), Biomarkers (DS4), Gut Microbiome (DS5), Vital Signs (DS6), Physical Activity (DS7), Sleep Activity (DS8), Emotional State (DS9), and Additional Information (DS10). Datasets are colored according to the data acquisition method: manual (in orange), clinical (in purple), or digital (in yellow)._
 
-## [Datasets](https://github.com/AI4Food/AI4FoodDB/tree/main/datasets)
+## [Datasets](datasets)
 ### Available Datasets
 The currently available datasets are:
-- [**DS1: Anthropometric Measurements.**](https://github.com/AI4Food/AI4FoodDB/tree/main/datasets/DS1_AnthropometricMeasurements) Manually-collected data available at [`datasets/anthropometric_measurements.csv`](https://github.com/AI4Food/AI4FoodDB/blob/main/datasets/DS1_AnthropometricMeasurements/anthropometric_measurements.csv).
-- [**DS2: Lifestyle and Health.**](https://github.com/AI4Food/AI4FoodDB/tree/main/datasets/DS2_LifestyleHealth) Manually-collected data available at [`datasets/lifestyle.csv`](https://github.com/AI4Food/AI4FoodDB/blob/main/datasets/DS2_LifestyleHealth/lifestyle.csv) and [`datasets/health.csv`](https://github.com/AI4Food/AI4FoodDB/blob/main/datasets/DS2_LifestyleHealth/health.csv).
-- [**DS3: Nutrition**](https://github.com/AI4Food/AI4FoodDB/tree/main/datasets/DS3_Nutrition) Digital-collected data available.
-- [**DS4: Biomarkers.**](https://github.com/AI4Food/AI4FoodDB/tree/main/datasets/DS4_Biomarkers) Clinical data available at [`datasets/biomarkers.csv`](https://github.com/AI4Food/AI4FoodDB/blob/main/datasets/DS4_Biomarkers/biomarkers.csv). 
-- [**DS6: Vital Signs.**](https://github.com/AI4Food/AI4FoodDB/tree/main/datasets/DS6_VitalSigns) Clinical data available at [`datasets/vitalsigns.csv`](https://github.com/AI4Food/AI4FoodDB/blob/main/datasets/DS6_VitalSigns/vitalsigns.csv). 
+- [**DS1: Anthropometric Measurements.**](datasets/DS1_AnthropometricMeasurements) Manually-collected data available at [`datasets/anthropometric_measurements.csv`](datasets/DS1_AnthropometricMeasurements/anthropometric_measurements.csv).
+- [**DS2: Lifestyle and Health.**](datasets/DS2_LifestyleHealth) Manually-collected data available at [`datasets/lifestyle.csv`](datasets/DS2_LifestyleHealth/lifestyle.csv) and [`datasets/health.csv`](datasets/DS2_LifestyleHealth/health.csv).
+- [**DS3: Nutrition**](datasets/DS3_Nutrition) Digital-collected data available.
+- [**DS4: Biomarkers.**](datasets/DS4_Biomarkers) Clinical data available at [`datasets/biomarkers.csv`](datasets/DS4_Biomarkers/biomarkers.csv). 
+- [**DS6: Vital Signs.**](datasets/DS6_VitalSigns) Clinical data available at [`datasets/vitalsigns.csv`](datasets/DS6_VitalSigns/vitalsigns.csv). 
 
-For a more detailed description of each dataset, please access the [`datasets`](https://github.com/AI4Food/AI4FoodDB/tree/main/datasets) directory.
+For a more detailed description of each dataset, please access the [`datasets`](datasets) directory.
 
 ### Ongoing Datasets
 - **DS5: Gut Microbiome.**
