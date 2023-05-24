@@ -12,12 +12,12 @@ This directory contains the available datasets from AI4FoodDB stored as tab-deli
 * [Participant Information](#participant-information)
 * [DS1: Anthropometric Measurements](#ds1-anthropometric-measurements)
 * [DS2: Lifestyle and Health](#ds2-lifestyle-and-health)
-* [DS3: Nutrition](https://github.com/AI4Food/AI4FoodDB/tree/main/datasets/DS3_Nutrition)
+* [DS3: Nutrition](#ds3-nutrition)
 * [DS4: Biomarkers](#ds4-biomarkers)
 * [DS6: Vital Signs](#ds6-vital-signs)
 
 ## Participant Information
-File [`participant.csv`](https://github.com/AI4Food/AI4FoodDB/blob/main/datasets/participant.csv) stores the basic information for each participant: 
+File [`participant.csv`](participant.csv) stores the basic information for each participant: 
 
 - `id`: Anonymized participant ID.
 - `group`: Intervention group. Particiants from group 1 started with the traditional/manual data collection methods and then switched to digital data collection. Participants from group 2 started with digital data collection methods and then switched to traditional/manual data collection.
@@ -28,8 +28,8 @@ File [`participant.csv`](https://github.com/AI4Food/AI4FoodDB/blob/main/datasets
 - `intervention_diet_kcal`: Recommended daily calorie intake for the particpant, measured in kcal.
 - `finished_intervention`: This column has a value of `1` if the participat completed the intervention and `0` otherwise.
 
-## [DS1: Anthropometric Measurements](https://github.com/AI4Food/AI4FoodDB/tree/main/datasets/DS1_AnthropometricMeasurements)
-This dataset contains the anthropometric measurements collected by a health professional during visits V0, V2, and V3. File [`anthropo.csv`](https://github.com/AI4Food/AI4FoodDB/blob/main/datasets/DS1_AnthropometricMeasurements/anthropo.csv) stores the following information:
+## [DS1: Anthropometric Measurements](DS1_AnthropometricMeasurements)
+This dataset contains the anthropometric measurements collected by a health professional during visits V0, V2, and V3. File [`anthropometric_measurements.csv`](DS1_AnthropometricMeasurements/anthropometric_measurements.csv) stores the following information:
 
 - `id`: Anonymized participant ID.
 - `visit`: Visit when the measurements were taken, either `0`, `2`, or `3`.
@@ -43,9 +43,9 @@ This dataset contains the anthropometric measurements collected by a health prof
 - `waist_cm`: Participant's waist circumference, measured in cm.
 - `hip_cm`: Participant's hip circumference, measured in cm.
 
-## [DS2: Lifestyle and Health](https://github.com/AI4Food/AI4FoodDB/tree/main/datasets/DS2_LifestyleHealth)
+## [DS2: Lifestyle and Health](DS2_LifestyleHealth)
 ### Lifestyle
-Information from the lifestyle survey is stored at [`lifestyle.csv`](https://github.com/AI4Food/AI4FoodDB/blob/main/datasets/DS2_LifestyleHealth/lifestyle.csv):
+Information from the lifestyle survey is stored at [`lifestyle.csv`](DS2_LifestyleHealth/lifestyle.csv):
 
 - `id`, `dataset_id`: Participant and dataset ID.
 - `appetite`: Appetite level on a scale from 1 to 5.
@@ -61,7 +61,7 @@ Information from the lifestyle survey is stored at [`lifestyle.csv`](https://git
 - `insomnia`, `somnolence`: These columns have a value of `1` if the participant suffers from insomnia or somnolence and `0` otherwise.
 
 ### Health
-File [`health.csv`](https://github.com/AI4Food/AI4FoodDB/blob/main/datasets/DS2_LifestyleHealth/health.csv) stores manually-acquired information about frequent medication intake and current diseases:
+File [`health.csv`](DS2_LifestyleHealth/health.csv) stores manually-acquired information about frequent medication intake and current diseases:
 
 - `id`, `dataset_id`: Participant and dataset ID.
 - `oral_contraceptive`, `ring_contraceptive`, `antidepressants`, `antiacids`, `antihistamines`, `antiinflamatory`, `iron`, `calcium`, `antihypertensives`, `thyroid_hormone`, `antibiotics`, `other_medication`: These columns have a value of `1` if the participant is currently consuming any of the listed medications, or a medication that is not included in this list, and `0` otherwise.
@@ -70,12 +70,12 @@ File [`health.csv`](https://github.com/AI4Food/AI4FoodDB/blob/main/datasets/DS2_
 - `no_illness`: This column has a value of `1` if the participant does not suffer from any illness at the moment and `0` otherwise.
 - `menopause`: This column has a value of `1` if the participant has reached menopause and `0` otherwise.
 
-## [DS3: Nutrition](https://github.com/AI4Food/AI4FoodDB/tree/main/datasets/DS3_Nutrition)
+## [DS3: Nutrition](DS3_Nutrition)
 
-Food images, including meals and drinks, from participants are available at the following [link](http://atvs.ii.uam.es/atvs/AI4FOOD/) due to the large size of the data. For more detail, please see the section [DS3: Nutrition](https://github.com/AI4Food/AI4FoodDB/tree/main/datasets/DS3_Nutrition).
+Food images, including meals and drinks, from participants are available at the following [link](http://atvs.ii.uam.es/atvs/AI4FOOD/) due to the large size of the data. For more detail, please see the section [DS3: Nutrition](DS3_Nutrition).
 
-## [DS4: Biomarkers](https://github.com/AI4Food/AI4FoodDB/tree/main/datasets/DS4_Biomarkers)
-File [`biomarkers.csv`](https://github.com/AI4Food/AI4FoodDB/blob/main/datasets/DS4_Biomarkers/biomarkers.csv) stores information from several biochemical parameters, measured from biological samples:
+## [DS4: Biomarkers](DS4_Biomarkers)
+File [`biomarkers.csv`](DS4_Biomarkers/biomarkers.csv) stores information from several biochemical parameters, measured from biological samples:
 
 - `id`, `visit`, `dataset_id`: Participant, visit where the measurement was taken, and dataset ID.
 - `leukocytes_10e3_ul`, `plats_10e3_ul`, `lympho_10e3_ul`, `mono_10e3_ul`, `seg_10e3_ul`, `eos_10e3_ul`, `baso_10e3_ul`: Total number of leukocytes, platelets, lymphocytes, monocytes, segmenters, eosynophils, and basophils, measured as $10^3/\mu{L}$.
