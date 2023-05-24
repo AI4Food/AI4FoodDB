@@ -7,8 +7,6 @@ The increasing prevalence of diet-related diseases calls for an improvement in n
 
 Moreover, the collected information will yield valuable insights into the relationships between different variables and health outcomes, allowing researchers to generate and test new hypotheses, identify novel biomarkers and digital endpoints, and explore how different lifestyle, biological, and digital factors impact health. 
 
-***NOTE: We plan to update the repository frequently, making the remaining files available as soon as possible.***
-
 ## Table of Contents
 * [Database Description](#database-description)
 * [Datasets](#datasets)
