@@ -1,0 +1,3 @@
+id,dataset_id,oral_contraceptive,ring_contraceptive,antidepressants,antiacids,antihistamines,antiinflamatory,iron,calcium,antihypertensives,thyroid_hormone,antibiotics,other_medication,no_medication,hyperthyroidism,hypothyroidism,hypercholesterolemia,triglyceridemia,hypertension,depression,diabetes,lactose_intolerance,other_illness,no_illness,menopause
+111,ds2_111,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+1274,ds2_1274,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0

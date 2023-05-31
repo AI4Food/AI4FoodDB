@@ -1,0 +1,3 @@
+id,group,age,sex,usual_weight_kg,weight_5years_kg,height_cm,intervention_diet_kcal,finished_intervention
+111,2,47,Female,62.5,64.5,156.8,1600,1
+1274,1,60,Male,85,91,168.5,2100,1
