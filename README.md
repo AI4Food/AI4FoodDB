@@ -49,7 +49,7 @@ If you use data from this project, please cite:
 @article{ai4fooddb2023,
   title={AI4FoodDB: A Database for Personalized e-Health Nutrition and Lifestyle through Wearable Devices and Artificial Intelligence},
   author={Romero-Tapiador, Sergio and Lacruz-Pleguezuelos, Blanca and Tolosana, Ruben and Freixer, Gala and Daza, Roberto and Fernández-Díaz, Cristina M and Aguilar-Aguilar, Elena and Fernández-Cabezas, Jorge and Cruz Gil, Silvia and Molina-Arranz, Susana and Crespo, Maria Carmen and Laguna-Lobo, Teresa and Marcos-Zambrano, Laura Judith and Vera-Rodriguez, Ruben and Fierrez, Julian and Ramírez de Molina, Ana and Ortega-Garcia, Javier and Espinosa-Salinas, Isabel and Morales, Aythami and Carrillo de Santa Pau, Enrique},
-  journal={Under Review},
+  journal={Database: The Journal of Biological Databases and Curation},
   year={2023}
 }
 ```
