@@ -2,7 +2,7 @@
 
 ### Manual Data
 
-#### DASS-21
+#### [DASS-21](https://github.com/AI4Food/AI4FoodDB/blob/master/datasets/DS9_EmotionalState/DASS-21.csv)
 
 Participants completed the self-reported Depression, Anxiety, and Stress Scale (DASS-21), which assesses emotional wellbeing and mood status. The data is stored in the `DASS-21.csv` file and includes the following variables:
 
@@ -73,7 +73,7 @@ Participants completed the self-reported Depression, Anxiety, and Stress Scale (
 
 During the two-week digital data collection period, emotional state was monitored through FitBit-generated stress indicators, including ElectroDermal Activity (EDA) sessions and derived daily stress scores.
 
-#### EDA Sessions
+#### [EDA Sessions](https://github.com/AI4Food/AI4FoodDB/tree/master/datasets/DS9_EmotionalState/eda_sessions)
 
 The `eda_sessions` directory contains skin conductance levels recorded during EDA sessions. Data is stored in files named `A4F_XXXXX_eda_sessions.csv`, which include:
 
@@ -90,7 +90,7 @@ The `eda_sessions` directory contains skin conductance levels recorded during ED
 -   `skin_conductance_levels`: Skin conductance level recorded during the session.
     
 
-#### Stress Score
+#### [Stress Score](https://github.com/AI4Food/AI4FoodDB/tree/master/datasets/DS9_EmotionalState/stress_score)
 
 The `eda_sessions` directory also contains daily stress management scores based on 10 physiological and behavioral factors, including sleep and heart rate data. These are stored in files named `A4F_XXXXX_stress_score.csv`, and include:
 
