@@ -7,7 +7,7 @@ This dataset contains both manually reported and digitally collected information
 
 ### Manual Data
 
-#### International Physical Activity Questionnaire (IPAQ)
+#### [International Physical Activity Questionnaire (IPAQ)](https://github.com/AI4Food/AI4FoodDB/blob/master/datasets/DS7_PhysicalActivity/IPAQ.csv)
 
 Participants completed the self-reported International Physical Activity Questionnaire (IPAQ), which includes questions about physical activity performed over the past few days. This questionnaire calculates multiple scores based on activity intensity and duration. The data is stored in the `IPAQ.csv` file and includes the following variables:
 
@@ -54,7 +54,7 @@ Participants completed the self-reported International Physical Activity Questio
 
 ### Digital Data
 
-#### Active Minutes
+#### [Active Minutes](https://github.com/AI4Food/AI4FoodDB/tree/master/datasets/DS7_PhysicalActivity/active_minutes)
 
 The `active_minutes` directory contains files named `A4F_XXXXX_active_minutes.csv`, which detail the number of minutes spent at various physical activity levels. The data distinguishes between activity during exercise (fat burn, cardio, and peak minutes) and general activity throughout the day (sedentary, lightly active, moderately active, and very active minutes):
 
@@ -77,7 +77,7 @@ The `active_minutes` directory contains files named `A4F_XXXXX_active_minutes.cs
 
 ----------
 
-#### Additional Physical Activity Data
+#### [Additional Physical Activity Data](https://github.com/AI4Food/AI4FoodDB/tree/master/datasets/DS7_PhysicalActivity/additional_physical_activity_data)
 
 The `additional_physical_activity_data` directory contains files named `A4F_XXXXX_additional_physical_activity_data.csv`, which include broader metrics on physical activity and exertion:
 
@@ -98,7 +98,7 @@ The `additional_physical_activity_data` directory contains files named `A4F_XXXX
 
 ----------
 
-#### Estimated VO₂ Max
+#### [Estimated VO₂ Max](https://github.com/AI4Food/AI4FoodDB/tree/master/datasets/DS7_PhysicalActivity/estimated_VO2)
 
 The `estimated_vo2` directory includes files named `A4F_XXXXX_estimated_vo2.csv`, estimating each participant’s VO₂ max—the maximum oxygen consumption during physical activity:
 
@@ -115,7 +115,7 @@ The `estimated_vo2` directory includes files named `A4F_XXXXX_estimated_vo2.csv`
 
 ----------
 
-#### Physical Activity Reports
+#### [Physical Activity Reports](https://github.com/AI4Food/AI4FoodDB/tree/master/datasets/DS7_PhysicalActivity/physical_activity_reports)
 
 The `physical_activity_reports` directory provides detailed summaries of individual physical activity sessions in files named `A4F_XXXXX_physical_activity_reports.csv`. Each file includes metrics such as duration, steps, calories, and heart rate data for different activity zones:
 
