@@ -35,7 +35,7 @@ Each file includes:
 -   `heart_rate`: **Heart rate**, measured in beats per minute (bpm).
     
 
-#### Electrocardiogram (ECG)
+#### [Electrocardiogram (ECG)](https://github.com/AI4Food/AI4FoodDB/tree/master/datasets/DS6_VitalSigns/electrocardiogram)
 
 This subdirectory includes electrocardiogram session data for each participant, stored in files named `A4F_XXXXX_electrocardiogram.csv`. Each file documents ECG sessions conducted during the digital data collection period.
 
