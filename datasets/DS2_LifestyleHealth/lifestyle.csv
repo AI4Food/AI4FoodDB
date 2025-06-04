@@ -1,3 +1,3 @@
-id,dataset_id,appetite,daily_meals,meals_weekdays_out,meals_weekdays_home,meals_weekend_out,meals_weekend_home,defecation,urination,water_ml,others_ml,cigarettes_day,cigars_day,pipe_day,alcohol,fermented_perc,distilled_perc,exercise,stress,anxiety,depression,eating_disorder,others_psychological,no_psychological,sleep_weekdays,sleep_weekend,insomnia,somnolence
-111,ds2_111,2,4,0,4,0.5,3.5,daily,>5,1250,750,0,0,0,0-5,1,0,>5,0,0,0,0,0,1,7.5,7.5,1,0
-1274,ds2_1274,4,5,0,5,0,5,every_two,>5,1000,750,0,0,0,0-5,1,0,4-5,0,0,0,0,0,1,8,8,0,0
+id,appetite,daily_meals,meals_weekdays_out,meals_weekdays_home,meals_weekend_out,meals_weekend_home,defecation,urination,water_ml,others_ml,cigarettes_day,cigars_day,pipe_day,alcohol,fermented_perc,distilled_perc,exercise,stress,anxiety,depression,eating_disorder,others_psychological,no_psychological,sleep_weekdays,sleep_weekend,insomnia,somnolence
+A4F_10021,4,3,1.0,2.0,0.0,3.0,daily,>5,1250,600.0,0,0,0,5-10,1.0,0.0,4-5,1,1,0,0,0,0,6.0,8.0,1,0
+
