@@ -4,7 +4,7 @@
 
 #### System Usability Scale (SUS)
 
-Participants completed the System Usability Scale (SUS), a 10-item questionnaire designed to evaluate the usability of the digital tools provided during the intervention. The SUS was administered at the end of the intervention to assess adherence and user satisfaction, with responses from 96 participants. The data is stored in the `SUS.csv` file and includes the following variables:
+Participants completed the System Usability Scale (SUS), a 10-item questionnaire designed to evaluate the usability of the digital tools provided during the intervention. The SUS was administered at the end of the intervention to assess adherence and user satisfaction, with responses from 96 participants. The data is stored in the [`SUS.csv`](https://github.com/AI4Food/AI4FoodDB/blob/master/datasets/DS10_AdditionalInformation/SUS.csv) file and includes the following variables:
 
 -   `id`: **Anonymized Participant ID**, formatted as `A4F_XXXXX`.
     
