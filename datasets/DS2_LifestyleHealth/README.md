@@ -4,7 +4,7 @@
 
 #### Lifestyle
 
-Information from the lifestyle questionnaire is available in the file [`lifestyle.csv`](https://github.com/AI4Food/AI4FoodDB/tree/main/datasets/DS2_LifestyleHealth/lifestyle.csv), which includes the following variables:
+Information from the lifestyle questionnaire is available in the file [`lifestyle.csv`](https://github.com/AI4Food/AI4FoodDB/blob/master/datasets/DS2_LifestyleHealth/lifestyle.csv), which includes the following variables:
 
 -   `id`: **Anonymized Participant ID** in the format `A4F_XXXXX`.
     
@@ -39,7 +39,7 @@ Information from the lifestyle questionnaire is available in the file [`lifestyl
 
 #### Health
 
-Manually reported information on medication use and current health conditions is provided in the file [`health.csv`](https://github.com/AI4Food/AI4FoodDB/tree/main/datasets/DS2_LifestyleHealth/health.csv), which includes the following variables:
+Manually reported information on medication use and current health conditions is provided in the file [`health.csv`](https://github.com/AI4Food/AI4FoodDB/blob/master/datasets/DS2_LifestyleHealth/health.csv), which includes the following variables:
 
 -   `id`: **Anonymized Participant ID** in the format `A4F_XXXXX`.
     
