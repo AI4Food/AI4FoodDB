@@ -83,7 +83,7 @@ Sleep activity was also monitored digitally using smartwatch devices, which cont
 
 ----------
 
-#### Additional Sleep Data
+#### [Additional Sleep Data](https://github.com/AI4Food/AI4FoodDB/tree/master/datasets/DS8_SleepActivity/additional_sleep_data)
 
 The `additional_sleep_data` directory contains detailed nightly sleep reports for each participant. Each file is named `A4F_XXXXX_additional_sleep_data.csv` and includes information about sleep timing and duration across different sleep stages (deep, light, and REM):
 
@@ -112,7 +112,7 @@ The `additional_sleep_data` directory contains detailed nightly sleep reports fo
 
 ----------
 
-#### Heart Rate Variability
+#### [Heart Rate Variability](https://github.com/AI4Food/AI4FoodDB/tree/master/datasets/DS8_SleepActivity/heart_rate_variability)
 
 The `heart_rate_variability` directory contains data on heart rate dynamics during sleep. Each file is named `A4F_XXXXX_heart_rate_variability.csv` and includes nightly measurements of autonomic nervous system activity:
 
@@ -125,7 +125,7 @@ The `heart_rate_variability` directory contains data on heart rate dynamics duri
 -   `entropy`: A measure of heart rate signal complexity during the night.
 
 
-#### Oxygen Saturation
+#### [Oxygen Saturation](https://github.com/AI4Food/AI4FoodDB/tree/master/datasets/DS8_SleepActivity/oxygen_saturation)
 
 The `oxygen_saturation` directory contains nightly measurements of blood oxygen saturation levels for each participant. Data is split into two files per participant:
 
@@ -148,7 +148,7 @@ The `oxygen_saturation` directory contains nightly measurements of blood oxygen 
 
 ----------
 
-#### Respiratory Rate
+#### [Respiratory Rate](https://github.com/AI4Food/AI4FoodDB/tree/master/datasets/DS8_SleepActivity/respiratory_rate)
 
 The `respiratory_rate` directory contains data on breathing rates during sleep, recorded in breaths per minute. Each file is named `A4F_XXXXX_respiratory_rate.csv` and includes average breathing rates across different sleep stages for each night:
 
@@ -181,7 +181,7 @@ The `respiratory_rate` directory contains data on breathing rates during sleep, 
 
 ----------
 
-#### Skin Temperature
+#### [Skin Temperature](https://github.com/AI4Food/AI4FoodDB/tree/master/datasets/DS8_SleepActivity/skin_temperature)
 
 The `skin_temperature` directory contains two types of files that monitor temperature fluctuations on the wrist throughout the day and night:
 
@@ -208,7 +208,8 @@ The `skin_temperature` directory contains two types of files that monitor temper
     -   `baseline_relative_nightly_standard_deviation`: Nightly standard deviation of relative temperature.
         
     -   `baseline_relative_sample_standard_deviation`: Standard deviation of all temperature samples relative to baseline.
-#### Sleep Quality
+    
+#### [Sleep Quality](https://github.com/AI4Food/AI4FoodDB/tree/master/datasets/DS8_SleepActivity/sleep_quality)
 
 The `sleep_quality` directory contains nightly sleep quality assessments for each participant. Data is stored in files named `A4F_XXXXX_sleep_quality.csv`, and includes a variety of sleep quality-related features such as start and end times, overall sleep quality scores, and detailed subscores. The scores include composition, revitalization, and duration components. Additionally, the file records the participant’s resting heart rate during sleep and their level of restlessness.
 
