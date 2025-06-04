@@ -6,7 +6,7 @@ Sleep-related data was collected through both manual assessments and digital rec
 
 ### Manual Data
 
-Sleep habits were manually assessed using the **Oviedo Sleep Questionnaire (OSQ)** at two timepoints: the beginning and the end of the traditional-based intervention. The OSQ is a semi-structured interview that facilitates the diagnosis of insomnia and hypersomnia over the past month, based on DSM-IV and ICD-10 criteria.
+Sleep habits were manually assessed using the [**Oviedo Sleep Questionnaire (OSQ)**](https://github.com/AI4Food/AI4FoodDB/blob/master/datasets/DS8_SleepActivity/OviedoSleepQuestionnaire.csv) at two timepoints: the beginning and the end of the traditional-based intervention. The OSQ is a semi-structured interview that facilitates the diagnosis of insomnia and hypersomnia over the past month, based on DSM-IV and ICD-10 criteria.
 
 Data is stored in the `OviedoSleepQuestionnaire.csv` file and includes the following parameters for each participant:
 
