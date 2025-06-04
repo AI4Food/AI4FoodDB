@@ -1,0 +1,3 @@
+id,visit,1_satisfaction_sleep,2_1_initiate_sleep,2_2_remain_asleep,2_3_restorative_sleep,2_4_usual_waking_up,2_5_excessive_somnolence,3_fall_asleep,4_wake_up_night,5_wake_up_earlier,6a_hours_sleep,6b_hours_bed,6c_sleep_efficiency,7_tiredness_not_sleep,8_somnolence_days,9_somnolence_effects,10a_snoring,10b_snoring_suffocation,10c_leg_movements,10d_nightmares,10e_others,11_sleep_aids,sleep_satisfaction_score,insomnia_score,somnolence_score,total_score
+A4F_10021,1.0,3.0,2,2,3.0,3,2,1.0,2.0,1.0,6,6,1,3.0,1.0,1.0,2,1,2,1,1,2.0,3.0,18.0,4.0,25.0
+A4F_10021,2.0,4.0,1,1,2.0,1,2,1.0,2.0,1.0,6,6,2,2.0,1.0,1.0,2,1,1,1,1,2.0,4.0,13.0,4.0,21.0
