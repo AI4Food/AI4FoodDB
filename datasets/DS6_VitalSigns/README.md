@@ -24,7 +24,7 @@ The file [`vital_signs.csv`](https://github.com/AI4Food/AI4FoodDB/blob/master/da
 ----------
 ### Digital Data
 
-#### Heart Rate
+#### [Heart Rate](https://github.com/AI4Food/AI4FoodDB/tree/master/datasets/DS6_VitalSigns/heart_rate)
 
 This subdirectory contains continuous heart rate recordings collected from participants during the 14-day digital data collection period. Each file is named `A4F_XXXXX_heart_rate.csv` and contains heart rate values sampled approximately every 5 to 10 seconds.
 
