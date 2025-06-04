@@ -2,7 +2,7 @@
 
 ### Health Professional Data
 
-This dataset contains anthropometric measurements collected by a healthcare professional during three key visits: **V0 (baseline)**, **V2 (mid-intervention)**, and **V3 (end of intervention)**. The data is stored in the [`anthropometrics.csv`](https://github.com/AI4Food/AI4Food2025/blob/main/datasets/DS1_AnthropometricMeasurements/anthropometrics.csv) file and includes the following fields:
+This dataset contains anthropometric measurements collected by a healthcare professional during three key visits: **V0 (baseline)**, **V2 (mid-intervention)**, and **V3 (end of intervention)**. The data is stored in the [`anthropometrics.csv`](https://github.com/AI4Food/AI4FoodDB/blob/master/datasets/DS1_AnthropometricMeasurements/anthropometric_measurements.csv) file and includes the following fields:
 
 -   `id`: **Anonymized Participant ID** in the format `A4F_XXXXX`.
     
