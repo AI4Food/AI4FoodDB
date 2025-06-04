@@ -1,7 +1,4 @@
-id,visit,dataset_id,systolic_blood_pressure_mmhg,dyastolic_blood_pressure_mmhg,heart_rate_bpm
-111,0,ds6_v0_111,108,74,78
-1274,0,ds6_v0_1274,114,54,63
-111,2,ds6_v2_111,105,67,86
-1274,2,ds6_v2_1274,129,62,53
-111,3,ds6_v3_111,90,65,73
-1274,3,ds6_v3_1274,128,56,58
+id,visit,systolic_blood_pressure_mmhg,dyastolic_blood_pressure_mmhg,heart_rate_bpm
+A4F_10021,0,143.0,87.0,58.0
+A4F_10021,2,142.0,85.0,57.0
+A4F_10021,3,126.0,79.0,60.0
