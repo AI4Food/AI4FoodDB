@@ -1,109 +1,205 @@
-
 # AI4FoodDB Datasets
-This directory contains the available datasets from AI4FoodDB stored as tab-delimited files in the corresponding directory. 
+This directory contains the available datasets from AI4FoodDB stored as CSV files in the corresponding directory. 
 
-- Every table contains an `id` column indicating the anonymized participant ID.
-- A `dataset_id` is also included in all datasets with the form `dsX_[vX]_ID`: dataset number, visit number if the measurement was taken more than once, and participant ID. For instance:
-    - `ds1_v0_1045` is the dataset ID for the information from dataset 1 recorded at V0 for participant 1045. 
-    - `ds2_1045` is the dataset ID for the information from dataset 2 for participant 1045.
-- Missing values are stored as `NA` in all cases.
+- Every table contains an **`id` column indicating the anonymized participant ID with the form `A4F_XXXXX`**.
+- Missing values are represented as either **"NA" or an empty string ("")**.
+- Note that **not all datasets** contain data from every participant.
+- **Each dataset includes example data from one participant to illustrate the structure and content**.
 
 ## Table of Contents
 * [Participant Information](#participant-information)
-* [DS1: Anthropometric Measurements](#ds1-anthropometric-measurements)
-* [DS2: Lifestyle and Health](#ds2-lifestyle-and-health)
-* [DS3: Nutrition](#ds3-nutrition)
-* [DS4: Biomarkers](#ds4-biomarkers)
-* [DS6: Vital Signs](#ds6-vital-signs)
+* [DS1 - Anthropometric Measurements](#ds1---anthropometric-measurements)
+* [DS2 - Lifestyle and Health](#ds2---lifestyle-and-health)
+* [DS3 - Nutrition](#ds3---nutrition)
+* [DS4 - Biomarkers](#ds4---biomarkers)
+* [DS5 - Gut Microbiome](#ds5---gut-microbiome)
+* [DS6 - Vital Signs](#ds6---vital-signs)
+* [DS7 - Physical Activity](#ds7---physical-activity)
+* [DS8 - Sleep Activity](#ds8---sleep-activity)
+* [DS9 - Emotional State](#ds9---emotional-state)
+* [DS10 - Additional Information](#ds10---additional-information)
+
+----------
 
 ## Participant Information
-File [`participant.csv`](participant.csv) stores the basic information for each participant: 
+File [`participant_information.csv`](https://github.com/AI4Food/AI4FoodDB/tree/master/datasets/participant_information.csv) stores the basic information for each participant: 
 
-- `id`: Anonymized participant ID.
-- `group`: Intervention group. Particiants from group 1 started with the traditional/manual data collection methods and then switched to digital data collection. Participants from group 2 started with digital data collection methods and then switched to traditional/manual data collection.
-- `sex`: Participant's sex.
-- `usual_weight_kg`: Participant's usual weight, measured in kg.
-- `weight_5years_kg`: Participant's weight 5 years ago, measured in kg.
-- `height_cm`: Participant's height, measured in cm.
-- `intervention_diet_kcal`: Recommended daily calorie intake for the particpant, measured in kcal.
-- `finished_intervention`: This column has a value of `1` if the participat completed the intervention and `0` otherwise.
+-   `id`: **Anonymized Participant ID**. Each participant is identified using a unique code in the format `A4F_XXXXX`.
+-   `group`: **Intervention Group Assignment**. Participants were divided into two groups:
+    -   **Group 1** began with traditional/manual data collection methods and later transitioned to digital methods.
+    -   **Group 2** began with digital data collection methods and later transitioned to traditional/manual methods.
+-   `sex`: **Sex of the Participant (Female or Male)**.    
+-   `usual_weight_kg`: **Usual Weight**. Self-reported or previously recorded weight of the participant, measured in kilograms (kg).    
+-   `weight_5years_kg`: **Weight Five Years Ago**. Self-reported weight of the participant five years prior to the intervention, measured in kilograms (kg).    
+-   `height_cm`: **Height**. Height of the participant, measured in centimeters (cm).    
+-   `intervention_diet_kcal`: **Prescribed Caloric Intake**. Daily recommended energy intake for the participant during the intervention, measured in kilocalories (kcal).    
+-   `finished_intervention`: **Intervention Completion Status**. A value of `1` indicates that the participant completed the full intervention, while `0` indicates non-completion.
 
-## [DS1: Anthropometric Measurements](DS1_AnthropometricMeasurements)
-This dataset contains the anthropometric measurements collected by a health professional during visits V0, V2, and V3. File [`anthropometric_measurements.csv`](DS1_AnthropometricMeasurements/anthropometric_measurements.csv) stores the following information:
+----------
 
-- `id`: Anonymized participant ID.
-- `visit`: Visit when the measurements were taken, either `0`, `2`, or `3`.
-- `dataset_id`: Dataset ID.
-- `period`: `1` if the participant was undergoing their period or at the previous days to their period, and `0` otherwise. 
-- `current_weight_kg`: Participant's weight measured during the nutritionist visit, in kg.
-- `bmi_kg_m2`: Participant's Body Mass Index (BMI) at the nutritionist visit, measured in $kg/m^2$.
-- `fat_mass_perc`, `muscle_mass_perc`: Participant's percentage of fat mass and muscle mass, respectively.
-- `visceral_fat_level`: Participant's visceral fat level.
-- `basal_metabolism`: Participant's basal metabolism, measured in kcal.
-- `waist_cm`: Participant's waist circumference, measured in cm.
-- `hip_cm`: Participant's hip circumference, measured in cm.
+## [DS1 - Anthropometric Measurements](https://github.com/AI4Food/AI4FoodDB/tree/master/datasets/DS1_AnthropometricMeasurements)
 
-## [DS2: Lifestyle and Health](DS2_LifestyleHealth)
-### Lifestyle
-Information from the lifestyle survey is stored at [`lifestyle.csv`](DS2_LifestyleHealth/lifestyle.csv):
+### Health Professional Data
 
-- `id`, `dataset_id`: Participant and dataset ID.
-- `appetite`: Appetite level on a scale from 1 to 5.
-- `daily meals`, `meals_weekdays_out`, `meals_weekdays_home`, `meals_weekend_out`, `meals_weekend_home`: Number of meals per day, number of meals eaten or cooked at home or outside (i.e., at a restaurant) during weekdays and during the weekend.
-- `defecation`, `urination`: Frequency of defecation (daily, every two days, or more) and urination (times per day).
-- `water_ml`, `others_ml`: Amount of water and other liquids consumed during the day, in mililiters.
-- `cigarettes_day`, `cigars_day`, `pipe_day`: Daily tobacco consumption in the form of cigarettes, cigars, or pipe.
-- `alcohol`, `fermented_perc`, `distilled_perc`: Weekly alcohol consumption and relative amount of fermented and distilled alcohol consumed (from 0 to 1).
-- `exercise`: Weekly exercise, measured as times per week.
-- `stress`, `anxiety`, `depression`, `eating_disorder`, `others_psychological`: These columns have a value of `1` if the participant suffers from stress, anxiety, depression, an eating disorder, or any other psychological illness, and `0` otherwise.
-- `no_psychological`: This column has a value of `1` if the participant does not suffer from any psychological illness and `0` otherwise.
-- `sleep_weekdays`, `sleep_weekend`: Hours of sleep during weekdays and during the weekend.
-- `insomnia`, `somnolence`: These columns have a value of `1` if the participant suffers from insomnia or somnolence and `0` otherwise.
+This dataset contains anthropometric data collected by healthcare professionals during three intervention timepoints: baseline (V0), mid-intervention (V2), and end of intervention (V3). Measurements include body weight and height, from which BMI is calculated, as well as waist and hip circumference. Additionally, body composition metrics such as fat and muscle mass percentages and visceral fat levels were obtained using bioelectrical impedance analysis (BIA).
 
-### Health
-File [`health.csv`](DS2_LifestyleHealth/health.csv) stores manually-acquired information about frequent medication intake and current diseases:
+----------
 
-- `id`, `dataset_id`: Participant and dataset ID.
-- `oral_contraceptive`, `ring_contraceptive`, `antidepressants`, `antiacids`, `antihistamines`, `antiinflamatory`, `iron`, `calcium`, `antihypertensives`, `thyroid_hormone`, `antibiotics`, `other_medication`: These columns have a value of `1` if the participant is currently consuming any of the listed medications, or a medication that is not included in this list, and `0` otherwise.
-- `no_medication`: This column has a value of `1` if the participant is not taking any medication at the moment and `0` otherwise.
-- `hyperthyroidism`, `hypothyroidism`, `hypercholesterolemia`, `triglyceridemia`, `hypertension`, `depression`, `diabetes`, `lactose_intolerance`, `other_illness`: These columns have a value of `1` if the participant suffers from any of the listed or any other illnesses, and `0` otherwise.
-- `no_illness`: This column has a value of `1` if the participant does not suffer from any illness at the moment and `0` otherwise.
-- `menopause`: This column has a value of `1` if the participant has reached menopause and `0` otherwise.
+## [DS2 - Lifestyle and Health](https://github.com/AI4Food/AI4FoodDB/tree/master/datasets/DS2_LifestyleHealth)
 
-## [DS3: Nutrition](DS3_Nutrition)
+Includes information on participants' lifestyle habits (e.g., smoking, alcohol intake, medication use) and general health status, including disease history.
 
-Food images, including meals and drinks, from participants are available at the following [link](http://atvs.ii.uam.es/atvs/AI4FOOD/) due to the large size of the data. For more detail, please see the section [DS3: Nutrition](DS3_Nutrition).
+### Manual Data
 
-## [DS4: Biomarkers](DS4_Biomarkers)
-File [`biomarkers.csv`](DS4_Biomarkers/biomarkers.csv) stores information from several biochemical parameters, measured from biological samples:
+#### Lifestyle
 
-- `id`, `visit`, `dataset_id`: Participant, visit where the measurement was taken, and dataset ID.
-- `leukocytes_10e3_ul`, `plats_10e3_ul`, `lympho_10e3_ul`, `mono_10e3_ul`, `seg_10e3_ul`, `eos_10e3_ul`, `baso_10e3_ul`: Total number of leukocytes, platelets, lymphocytes, monocytes, segmenters, eosynophils, and basophils, measured as $10^3/\mu{L}$.
-- `erythrocytes_10e6_ul`: Total erythrocyte number, measured as $10^6/\mu{L}$.
-- `hgb_g_dl`: Hemoglobin concentration, measured in g/dL.
-- `hematocrit_perc`: Hematocrit.
-- `mcv_fl`, `mpv_fl`: Mean corpuscular volume (MCV) and mean platelet volume (MPV), measured in fL.
-- `mch_pg`, `mchc_g_dl`: Mean corpuscular hemoglobin (MCH), measured in pg, and MCH concentration (MCHC), measured in g/dL.
-- `rdw_perc`: Red cell distribution width.
-- `lympho_perc`, `mono_perc`, `seg_perc`, `eos_perc`, `baso_perc`: Percentage of lymphocytes, monocytes, segmenters, eosynophils, and basophyls.
-- `hba1c_perc`, `hba1ifcc_mmol_mol`: Glycated hemoglobin, measured as a percentage and in mmol/mol respectively.
-- `insulin_uui_ml`: Insulin concentration, measured in $\mu{UI}/mL$.
-- `homa`: HOMA-IR index.
-- `glu_mg_dl`: Glucose concentration in mg/dL.
-- `chol_mg_dl`, `tri_mg_dl`, `hdl_mg_dl`, `ldl_mg_dl`: Total cholesterol concentration, total triglycerides concentration, high-density lipoprotein (HDL) concentration and low-density lipoprotein (LDL) concentration, measured in mg/dL.
-- `homocysteine_umol_l`: Homocysteine concentration, measured in $\mu{mol}/L$.
-- `alb_g_dl`, `prealbumin_mg_dl`: Albumin and prealbumin concentrations, measured in g/dL and mg/dL respectively.
-- `crp_mg_dl`: C-reactive protein concentration, measured in mg/dL.
-- `igg_mg_dl`, `iga_mg_dl`, `igm_mg_dl`, `ige_ui_ml`: Concentrations of immunoglobulins (Ig) IgG, IgA, IgM, measured in mg/dL; and IgE, measured in UI/mL.
-- `tnf_a_ui_ml`: TNF-$\alpha$ concentration, measured in UI/mL.
-- `adiponectin_ug_ml`: Adiponectin concentration, measured in $\mu{g}/mL$.
+This dataset includes responses to a lifestyle questionnaire completed by participants at the baseline visit. It covers topics such as appetite, meal patterns, alcohol and tobacco use, physical activity, sleep habits, and various psychological indicators. 
+
+#### Health
+
+Medical history data were collected at baseline, including regular medication intake, existing health conditions, and family medical history. The original questionnaire contained both structured and open-ended fields. . The dataset also includes information on menopause status where applicable.
+
+----------
+
+## [DS3 - Nutrition](https://github.com/AI4Food/AI4FoodDB/tree/master/datasets/DS3_Nutrition)
+
+### Digital Data
+
+This dataset contains food and drink images collected during a ~14-day digital intervention, where participants documented their dietary intake by uploading pictures via a dedicated web platform.  Each image is accompanied by a timestamp and its corresponding labels. Further details about the labeling schema and methodology, as well as the database itself, can be found in the [associated research article](https://arxiv.org/abs/2504.06925) and [GitHub repository](https://github.com/AI4Food/FoodNExtDB).
+
+#### Timestamps
+
+A separate CSV file is provided for each participant, recording the timestamp corresponding to each image. These files enable temporal analysis of dietary patterns throughout the intervention.
+
+#### Labels
+
+Food images have been manually annotated with semantic labels to identify food types, ingredients, and preparation methods. These labels are provided in individual CSV files per participant. 
+
+----------
+
+## [DS4 - Biomarkers](https://github.com/AI4Food/AI4FoodDB/tree/master/datasets/DS4_Biomarkers)
+
+Encompasses clinical and biochemical data obtained from blood and urine samples, such as glucose, cholesterol levels, and inflammatory markers. Also, blood glucose levels were tracked over 14 days using a glucose device.
+
+### Health Professional Data
+
+This dataset includes biological markers derived from blood, urine, and saliva samples collected at two timepoints: **V1 (start)** and **V3 (end)** of the intervention. These measurements capture a broad range of immune, biochemical, and genetic indicators relevant to nutrition, metabolism, and general health.
 
 
-## [DS6: Vital Signs](DS6_VitalSigns)
-The vital signs measured by a health professional during the nutritionist visits are stored in [`vitalsigns.csv`](DS6_VitalSigns/vitalsigns.csv): 
+### Digital Data
 
-- `id`, `visit`, `dataset_id`: Participant, visit where the measurement was taken, and dataset ID.
-- `systolic_blood_pressure_mmhg`, `dyastolic_blood_pressure_mmhg`: Systolic and dyastolic blood pressure, measured in mmHg.
-- `heart_rate_bpm`: Heart rate, measured in beats per minute (bpm).
+#### Blood Glucose Levels
 
+Participants wore a Continuous Glucose Monitoring (CGM) device during the digital phase of the study, enabling high-resolution tracking of blood glucose fluctuations over ~14 days. The data, collected at 15-minute intervals, are categorized into standard glycemic ranges and include computed indicators such as glucose variability and the Glucose Management Indicator (GMI).
+
+## [DS5 - Gut Microbiome](https://github.com/AI4Food/AI4FoodDB/tree/master/datasets/DS5_GutMicrobiome)
+
+Stool samples were also collected at V1 and V3  to characterize the gut microbiome composition and functionality via shotgun metagenomics and untargeted metabolomics. Whole-genome shotgun sequencing data are available at the European Nucleotide Archive with accession code [PRJEB87701](https://www.ebi.ac.uk/ena/browser/view/PRJEB87701).
+
+## [DS6 - Vital Signs](https://github.com/AI4Food/AI4FoodDB/tree/master/datasets/DS6_VitalSigns)
+
+Includes measurements of physiological signals such as blood pressure, heart rate, respiratory rate, and body temperature. Electrocardiograms and continuous heart rate data were collected using the smartwatch.
+
+### Health Professional Data
+
+This dataset includes clinical measurements of **heart rate (HR)**, **systolic blood pressure**, and **diastolic blood pressure** taken during study visits **V0**, **V2**, and **V3**. These values were manually recorded by healthcare professionals. 
+
+
+### Digital Data
+
+#### Heart Rate
+
+Participants wore a smartwatch equipped with photoplethysmography (PPG) sensors to continuously measure HR during the 14-day digital data collection phase. HR data is recorded every 5–10 seconds and includes automatic classification into four activity zones: **below zone 1**, **zone 1**, **zone 2**, and **zone 3**, which reflect increasing levels of physical activity.
+
+
+#### Electrocardiogram (ECG)
+
+Each participant was asked to perform a **30-second ECG test** once per day, preferably at night. These tests produced waveform data (sampled at 250 Hz), average HR, and a test classification: **normal sinus rhythm**, **atrial fibrillation**, or **inconclusive/unclassifiable**. 
+
+----------
+
+## [DS7 - Physical Activity](https://github.com/AI4Food/AI4FoodDB/tree/master/datasets/DS7_PhysicalActivity)
+
+This dataset contains both manually reported and smartwatch-collected data regarding participants’ physical activity over the course of the study.
+
+### Manual Data
+
+#### International Physical Activity Questionnaire (IPAQ)
+
+Participants completed the **Spanish version of the short IPAQ questionnaire** twice: at the beginning and end of the intervention. This questionnaire evaluates physical activity across **vigorous**, **moderate**, and **walking** categories, reporting both the **frequency (days per week)** and **duration (minutes per day)** of activity. Additionally, the questionnaire captures **sedentary behavior** through daily sitting time.
+
+Each activity is converted into **MET-minutes** (Metabolic Equivalent of Task), and participants are classified into three physical activity categories:
+
+-   **Inactive**: <600 MET-min/week
+    
+-   **Minimally Active**: ≥600 MET-min/week, meeting minimum thresholds
+    
+-   **Active**: ≥1500 or ≥3000 MET-min/week, depending on intensity
+    
+
+Quantitative (MET-minutes) and qualitative (activity category) variables, along with notes from healthcare professionals, are included.
+
+
+### Digital Data
+
+Data collected via smartwatch during the 14-day digital phase includes:
+
+-   **Active Minutes**: Records the amount of time participants spent in different levels of physical activity, distinguishing between exercise intensity zones (fat burn, cardio, peak) and general daily activity levels (sedentary to very active).
+    
+-   **Physical Activity Reports**: Provides summaries of individual physical activity sessions, including metrics like duration, calories burned, distance covered, and heart rate zones. Some activities contain additional data, such as swim strokes and lap times.
+    
+-   **Estimated VO₂ Max**: Offers estimations of each participant’s maximum oxygen uptake during exercise, including filtered values and associated error margins.
+    
+-   **Additional Physical Activity Data**: Captures broader daily metrics such as total calories burned, steps taken, altitude, and distance walked, all logged at a high temporal resolution.
+
+----------
+
+## [DS8 - Sleep Activity](https://github.com/AI4Food/AI4FoodDB/tree/master/datasets/DS8_SleepActivity)
+The **Sleep Activity** dataset includes both manually collected and digitally recorded data on participants' sleep habits and activity
+
+
+### Manual Data
+The **Oviedo Sleep Questionnaire (OSQ)** was used for manual assessment of sleep habits at the beginning and end of the intervention. This questionnaire assesses sleep satisfaction, insomnia symptoms, hypersomnia, and the use of sleep aids, with data stored in both numeric and text formats. The manual data provides context for understanding the digital sleep data and serves as a baseline for evaluating changes in sleep patterns over time.
+
+
+### Digital Data
+Digital data was captured continuously via smartwatch devices, which monitored various sleep-related parameters throughout the intervention. The smartwatch recorded data such as heart rate, respiratory rate, oxygen saturation, and skin temperature, as well as detailed sleep stage information and sleep quality assessments.
+The digital data is organized into several main directories, each corresponding to different aspects of sleep activity. These directories contain time-series data that was recorded continuously throughout the intervention.
+
+-   **Additional Sleep Data**: This directory contains detailed reports on sleep timing, including the duration of different sleep stages (deep, light, and REM sleep) for each participant. The data provides insights into the overall sleep patterns and stages for each night.
+    
+-   **Heart Rate Variability**: This directory holds data on the variations in heart rate during sleep, which provides insights into the autonomic nervous system activity. It includes measurements of heart rate variability (HRV) over the course of each night, helping to assess the impact of sleep on heart rate dynamics.
+    
+-   **Oxygen Saturation**: This directory contains measurements of blood oxygen saturation levels during sleep. The data helps monitor participants' respiratory function while sleeping, including any potential hypoxemia episodes.
+    
+-   **Respiratory Rate**: This directory includes data on the average number of breaths per minute during each participant's sleep. The data is broken down by different sleep stages and provides information about breathing patterns throughout the night.
+    
+-   **Skin Temperature**: This directory contains data on wrist temperature, recorded every minute throughout the day and night. It includes both overall temperature trends and specific features related to temperature fluctuations during sleep.
+    
+-   **Sleep Quality**: This directory contains data related to overall sleep quality, including scores for duration, revitalization, and composition of sleep. It also tracks additional parameters like resting heart rate during sleep and restlessness, which can indicate disruptions in sleep patterns.
+
+----------
+
+## [DS9 - Emotional State](https://github.com/AI4Food/AI4FoodDB/tree/master/datasets/DS9_EmotionalState)
+
+The **Emotional State** dataset includes both manual and digital measurements of participants' emotional wellbeing throughout the study.
+
+
+### Manual Data
+Manual data was collected using the **DASS-21** (Depression, Anxiety, and Stress Scale), a validated self-report questionnaire completed by participants twice during the study. This questionnaire assesses the participants' levels of depression, anxiety, and stress over the past week through three subscales, each containing seven items. The **DASS-21** is the primary source of manual emotional state data. It contains self-reported information on depression, anxiety, and stress, with scores calculated for each subscale based on the participant's responses. This data is stored in a CSV file that includes the scores for each scale.
+
+### Digital Data
+
+Digital data was collected via FitBit devices, which continuously measured physiological indicators of stress and emotional state during the intervention. The devices tracked various stress-related metrics, including heart rate, electrodermal activity (EDA), and overall stress management based on lifestyle factors such as sleep and physical activity. The digital data collected through FitBit devices provides insights into the participants' emotional state based on physiological measurements, such as heart rate and skin conductance levels. The data is organized into two main components:
+
+-   **EDA Sessions**: This directory contains data on the participants' electrodermal activity (EDA) sessions, which are used to measure skin conductance levels (SCL). The data is stored in CSV files and includes information about the SCL levels recorded during each session, providing insights into the body's response to stress.
+    
+-   **Stress Score**: This directory includes the daily stress management scores derived from 10 factors related to sleep, heart rate, and physical activity. The final score, ranging from 1 to 100, indicates the level of stress management. Higher scores reflect better stress management, with fewer physical signs of stress.
+
+----------
+
+## [DS10 - Additional Information](https://github.com/AI4Food/AI4FoodDB/tree/master/datasets/DS10_AdditionalInformation)
+
+### Manual Data
+The **Additional Information** dataset contains supplementary data on various aspects related to cognitive function, COVID-19 symptoms, and system usability. We provide the **System Usability Scale (SUS)**, where participants completed the System Usability Scale (SUS) to evaluate their experience with the digital tools used during the study. The survey consisted of 10 items, and responses from 96 participants are stored in the dataset. The data is stored in a CSV file that includes participant responses to the 10 items of the SUS survey, assessing the usability and user satisfaction with the digital tools used during the intervention.
 
