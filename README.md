@@ -25,8 +25,8 @@ The AI4Food database (AI4FoodDB) gathers data from a nutritional intervention wi
 
 ***Overview of the AI4FoodDB.*** _The database comprises 10 datasets representing different types of data acquired during the nutritional intervention: Anthropometric Measurements (DS1), Lifestyle and Health (DS2), Nutrition (DS3), Biomarkers (DS4), Gut Microbiome (DS5), Vital Signs (DS6), Physical Activity (DS7), Sleep Activity (DS8), Emotional State (DS9), and Additional Information (DS10). Datasets are colored according to the data acquisition method: manual (in orange), clinical (in purple), or digital (in yellow)._
 
-## [Datasets](https://github.com/AI4Food/AI4FoodDB/tree/main/datasets)
-### For a more detailed description of each dataset, please access the [`datasets`](https://github.com/AI4Food/AI4FoodDB/tree/main/datasets) directory.
+## [Datasets](https://github.com/AI4Food/AI4FoodDB/tree/master/datasets)
+### For a more detailed description of each dataset, please access the [`datasets`](https://github.com/AI4Food/AI4FoodDB/tree/master/datasets) directory.
 The currently available datasets are:
 - **DS1 - Anthropometric Measurements:** Contains basic body measurements such as weight, height, BMI, waist circumference, and other anthropometric indicators that reflect body composition and size.
 - **DS2 - Lifestyle and Health:** Includes information on participants' lifestyle habits (e.g., smoking, alcohol intake, medication use) and general health status, including disease history.
