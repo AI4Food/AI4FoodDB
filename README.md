@@ -3,8 +3,13 @@
 ### Article 📄: [AI4FoodDB: A Database for Personalized e-Health Nutrition and Lifestyle through Wearable Devices and Artificial Intelligence (10.1093/database/baad049)](https://academic.oup.com/database/article/doi/10.1093/database/baad049/7226275)
 ## Download AI4FoodDB 🗂️
 
-📌 **The AI4FoodDB dataset will be made publicly available soon.**  
-Stay tuned for the release and citation guidelines.
+📌 **The AI4FoodDB dataset can be accessed at the following link:**  
+[https://bidalab.eps.uam.es/static/AI4FoodDB/AI4FoodDB.zip](https://bidalab.eps.uam.es/static/AI4FoodDB/AI4FoodDB.zip)
+
+**This .zip file includes all datasets except Dataset 3 (DS3) – Nutrition, and Dataset 5 (DS5) – Gut Microbiome.**
+
+- **Dataset 3 (DS3) - Nutrition** can be accesed at the following link: [https://bidalab.eps.uam.es/static/AI4FoodDB/FoodNExtDB.zip](https://bidalab.eps.uam.es/static/AI4FoodDB/FoodNExtDB.zip)
+- **Dataset 5 (DS5) - Gut Microbiome** can be accesed at the following link: [https://www.ebi.ac.uk/ena/browser/view/PRJEB87701](https://www.ebi.ac.uk/ena/browser/view/PRJEB87701)
 
 **The AI4FoodDB database will only be used for research purposes and will not be used nor included in commercial applications in any form (e.g., original files, encrypted files, files containing extracted features, etc).**
 
