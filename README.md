@@ -8,8 +8,8 @@
 
 **This .zip file includes all datasets except Dataset 3 (DS3) – Nutrition, and Dataset 5 (DS5) – Gut Microbiome.**
 
-- **Dataset 3 (DS3) - Nutrition** can be accesed at the following link: [https://bidalab.eps.uam.es/static/AI4FoodDB/FoodNExtDB.zip](https://bidalab.eps.uam.es/static/AI4FoodDB/FoodNExtDB.zip)
-- **Dataset 5 (DS5) - Gut Microbiome** can be accesed at the following link: [https://www.ebi.ac.uk/ena/browser/view/PRJEB87701](https://www.ebi.ac.uk/ena/browser/view/PRJEB87701)
+- **Dataset 3 (DS3) - Nutrition** can be accesed at the following link: [https://bidalab.eps.uam.es/static/AI4FoodDB/FoodNExtDB.zip](https://bidalab.eps.uam.es/static/AI4FoodDB/FoodNExtDB.zip).
+- **Dataset 5 (DS5) - Gut Microbiome** can be accesed at the following link: [https://www.ebi.ac.uk/ena/browser/view/PRJEB87701](https://www.ebi.ac.uk/ena/browser/view/PRJEB87701).
 
 **The AI4FoodDB database will only be used for research purposes and will not be used nor included in commercial applications in any form (e.g., original files, encrypted files, files containing extracted features, etc).**
 
